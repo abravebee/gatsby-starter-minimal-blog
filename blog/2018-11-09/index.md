@@ -7,7 +7,7 @@ category: "General"
 # Part 1 - Individual Accomplishments this Week
 - Paste your team’s github contribution graph here and indicate your Github Handle:
 
-![contributions](./07-contributions)
+![contributions](https://ibb.co/jW700A)
 I am @abravebee.
 
 - Provide a paragraph (5-8 sentences) summarizing the work you did this week, the challenges you faced, the tools you used, and your accomplishments
@@ -41,20 +41,20 @@ In past projects, I've had a tendency to use few files and folders when building
 
 I was also aware that I'm not the only one on the team who was feeling rusty on Redux, so it seemed like a model could only be helpful As I had to spend some time refreshing on Redux anyway, I decided to start with actions and reducers (which took longer than expected). There was a clear pattern with our meals, ingredients, alarms, and recipes pages, so I started there:
 
-![mealActions.js boilerplating action types](../imgs/01-mealActions.PNG)
+![mealActions.js boilerplating action types](https://ibb.co/dgy9Sq)
 Originally I had set it up with the GET/GETTING pattern I was familiar with from Dustin's lectures. However, as you can see toward the bottom, I had a thought about a possible different structure. I remembered a groupmate from my cohort who had condensed their actions ending in "ING" down to FETCHING_DATA or something similar. I wondered if this might be useful to us, and suggested it in a comment to go over with my teammates.
 
-![mealActions.js boilerplating action code](../imgs/02-mealActions2.PNG)
+![mealActions.js boilerplating action code](https://ibb.co/bFKG7q)
 I also started setting up a couple of actions (one pictures above) to model our other actions after. I included a commented out example of what it would look like if we changed our action types. This is still under discussion.
 
-![](../../imgs/03-actions-index.PNG)
+![actions/index.js exports](https://ibb.co/cojinq)
 Other actions files did not have as much detail, just the comment headings, but I did include how these files would be exported from index.js so that we wouldn't have to worry about pathnames when pulling action types for different components. Everything can be imported from the index.js file by exporting with the example shown above, and importing into reducer files as shown below.
-![](../../imgs/04-mealsReducer-import)
+![importing mealActions from index](https://ibb.co/hx8XfA)
 
-![](../../imgs/05-mealsReducer-state)
+![mealsReducer.js initial state](https://ibb.co/jPW7DV)
 And as with the actions, I had some thoughts about the reduction of our reducers from the examples I was used to. These discussion were briefly tabled when we realized that we needed to build log-in functionality as opposed to simple deployment! But I did include example code with commented out alternatives using the second version of initial state:
 
-![](../../imgs/06-mealsReducer-code)
+![mealsReducer.js examples](https://ibb.co/e1DyLA)
 
 I look forward to spending more time implementing this structure into actual functionality!
 
