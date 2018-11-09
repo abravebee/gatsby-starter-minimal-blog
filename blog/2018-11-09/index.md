@@ -62,5 +62,5 @@ I look forward to spending more time implementing this structure into actual fun
 Part 2 - Milestone Reflections
 Put your response to the weekly question and a link to your team journal assignment here.
 Front End deployment: https://lambdamealhelper.netlify.com/
-Back End deployment: https://labs8-meal-helper.herokuapp.com/
+Back End deployment: https://labs8-meal-helper.herokuapp.com/users
 We ran into a bug very late in the day regarding the back-end deployment and as such were unable to finish wiring up the register/login on the deployed site. It does work locally, however, and my hope is that we'll be able to finish this part up by demo time.
