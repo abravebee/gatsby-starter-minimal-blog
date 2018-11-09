@@ -41,7 +41,7 @@ In past projects, I've had a tendency to use few files and folders when building
 
 I was also aware that I'm not the only one on the team who was feeling rusty on Redux, so it seemed like a model could only be helpful As I had to spend some time refreshing on Redux anyway, I decided to start with actions and reducers (which took longer than expected). There was a clear pattern with our meals, ingredients, alarms, and recipes pages, so I started there:
 
-![mealActions.js boilerplating action types](https://ibb.co/dgy9Sq)
+![mealActions.js boilerplating action types](https://preview.ibb.co/ixLdLA/01-meal-Actions.png)
 Originally I had set it up with the GET/GETTING pattern I was familiar with from Dustin's lectures. However, as you can see toward the bottom, I had a thought about a possible different structure. I remembered a groupmate from my cohort who had condensed their actions ending in "ING" down to FETCHING_DATA or something similar. I wondered if this might be useful to us, and suggested it in a comment to go over with my teammates.
 
 ![mealActions.js boilerplating action code](https://ibb.co/bFKG7q)
