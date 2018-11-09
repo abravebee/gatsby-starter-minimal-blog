@@ -7,7 +7,7 @@ category: "General"
 # Part 1 - Individual Accomplishments this Week
 - Paste your team’s github contribution graph here and indicate your Github Handle:
 
-![contributions](../../imgs/07-contributions)
+![contributions](./07-contributions)
 I am @abravebee.
 
 - Provide a paragraph (5-8 sentences) summarizing the work you did this week, the challenges you faced, the tools you used, and your accomplishments
