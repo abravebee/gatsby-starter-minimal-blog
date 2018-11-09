@@ -62,6 +62,10 @@ I look forward to spending more time implementing this structure into actual fun
 
 Part 2 - Milestone Reflections
 Put your response to the weekly question and a link to your team journal assignment here.
+
+We decided as a group to overcommunicate and overplan during the first week so we could get used to how we each work and where our strengths are. Also, I think it was helpful in not feeling strange about reaching out to one another, by making it an extremely normal thing. The only issue I'm concerned with is that it may impede some of our progress as time goes on if we are all stopping and jumping in together too often. Once we get our Trello board broken out better and start getting a clearer idea of expectations each week, I think this will naturally become smoother. I'm super excited to get better at working in a team with people who are even more energetic and enthusiastic about the project than me (as my experiences have usually been the other way around).
+
+
 Front End deployment: https://lambdamealhelper.netlify.com/
 Back End deployment: https://labs8-meal-helper.herokuapp.com/users
 We ran into a bug very late in the day regarding the back-end deployment and as such were unable to finish wiring up the register/login on the deployed site. It does work locally, however, and my hope is that we'll be able to finish this part up by demo time.
