@@ -1,7 +1,7 @@
 ---
 date: "2018-11-09"
-title: "Lambda Labs - Week One"
-category: "Journal"
+title: "Week One"
+category: "General"
 ---
 
 # Part 1 - Individual Accomplishments this Week

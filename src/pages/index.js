@@ -47,8 +47,7 @@ const IndexPage = ({
       <Hero>
         <h1>Hi.</h1>
         <p>
-          I&apos;m John Doe, a Senior UX Developer with five years of industry experience, specializing in developing
-          React apps with the best UX users can get.
+          I&apos;m Casey Baker, a Full Stack Web Developer currently enjoying the Labs module at Lambda School technical academy. This is my journey.
         </p>
         <Link to="/contact">
           <Button big>
