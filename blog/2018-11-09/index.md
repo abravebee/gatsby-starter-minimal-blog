@@ -7,11 +7,14 @@ category: "General"
 # Part 1 - Individual Accomplishments this Week
 - Paste your team’s github contribution graph here and indicate your Github Handle:
 
-
+![contributions](../../imgs/07-contributions)
+I am @abravebee.
 
 - Provide a paragraph (5-8 sentences) summarizing the work you did this week, the challenges you faced, the tools you used, and your accomplishments
 
-This week I spent a lot of time verbally discussing the project with my team members, as well as working on design/layout and boilerplating Redux and folder/file structure to best suit our needs and reduce merge conflicts. One of the biggest challenges I faced personally was trying to balance communication with my team and actually building pieces of the project. I mainly spent time in Figma and refreshing/building with Redux. I also spent a considerable amount of time hashing out our data models, deploying the front-end to Netlify, and helping to debug deployment of the back-end to Heroku. I am most pleased with the Netlify deployment and with becoming more comfortable with Redux again (as I have not worked with it since the week we learned it). I look forward to having a better grasp of the Labs workflow next week and cleaning/dividing up our Trello board better so I can increase the amount I'm able to get done each day.
+This week I spent a lot of time verbally discussing the project with my team members, as well as working on design/layout and boilerplating Redux and folder/file structure to best suit our needs and reduce merge conflicts. One of the biggest challenges I faced personally was trying to balance communication with my team and actually building pieces of the project. I mainly spent time in Figma and refreshing/building with Redux when I wasn't discussing the project with my teammates. 
+
+I also spent a considerable amount of time hashing out our data models, deploying the front-end to Netlify, and helping to debug deployment of the back-end to Heroku. I am most pleased with the Netlify deployment and with becoming more comfortable with Redux again (as I have not worked with it since the week we learned it). I look forward to having a better grasp of the Labs workflow next week and cleaning/dividing up our Trello board better so I can increase the amount I'm able to get done each day.
 
 ## Tasks Pulled
 List the tasks you pulled this week, and provide a link to the successfully merged PR completing that task and the trello card for that task.  You must have at least one front end and one back end. The expected total is 6 with a minimum of 4.
@@ -44,16 +47,20 @@ Originally I had set it up with the GET/GETTING pattern I was familiar with from
 ![mealActions.js boilerplating action code](../imgs/02-mealActions2.PNG)
 I also started setting up a couple of actions (one pictures above) to model our other actions after. I included a commented out example of what it would look like if we changed our action types. This is still under discussion.
 
-![](..imgs/03-actions-index.PNG)
+![](../../imgs/03-actions-index.PNG)
 Other actions files did not have as much detail, just the comment headings, but I did include how these files would be exported from index.js so that we wouldn't have to worry about pathnames when pulling action types for different components. Everything can be imported from the index.js file by exporting with the example shown above, and importing into reducer files as shown below.
-![](..imgs/04-mealsReducer-import)
+![](../../imgs/04-mealsReducer-import)
 
-![](...imgs/05-mealsReducer-state)
+![](../../imgs/05-mealsReducer-state)
 And as with the actions, I had some thoughts about the reduction of our reducers from the examples I was used to. These discussion were briefly tabled when we realized that we needed to build log-in functionality as opposed to simple deployment! But I did include example code with commented out alternatives using the second version of initial state:
 
-![](...imgs/06-mealsReducer-code)
+![](../../imgs/06-mealsReducer-code)
 
 I look forward to spending more time implementing this structure into actual functionality!
 
+
 Part 2 - Milestone Reflections
 Put your response to the weekly question and a link to your team journal assignment here.
+Front End deployment: https://lambdamealhelper.netlify.com/
+Back End deployment: https://labs8-meal-helper.herokuapp.com/
+We ran into a bug very late in the day regarding the back-end deployment and as such were unable to finish wiring up the register/login on the deployed site. It does work locally, however, and my hope is that we'll be able to finish this part up by demo time.
