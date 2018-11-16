@@ -39,13 +39,13 @@ Pick one of your tickets and provide a detailed analysis of the work you did.  T
 
 In past projects, I've had a tendency to use few files and folders when building. This meant putting the bulk of my code in index.js files rather than breaking them out by category or route or what-have-you. I think this was a side-effect mainly of my nerves when working under a time crunch, and assuming it was better to just get the code down and then organize it later--this is the way I've worked as a creative/non-fiction writer, so it was instinctive to use this method while writing code. However, since I am not the only one who needs to understand the structure of the code, it seemed prudent to put some time and thought into setting up a file/folder structure that would allow us to work as a team without conflicting with one another.
 
-I was also aware that I'm not the only one on the team who was feeling rusty on Redux, so it seemed like a model could only be helpful As I had to spend some time refreshing on Redux anyway, I decided to start with actions and reducers (which took longer than expected). There was a clear pattern with our meals, ingredients, alarms, and recipes pages, so I started there:
+I was also aware that I'm not the only one on the team who was feeling rusty on Redux, so it seemed like a model could only be helpful. As I had to spend some time refreshing on Redux anyway, I decided to start with actions and reducers (which took longer than expected). There was a clear pattern with our meals, ingredients, alarms, and recipes pages, so I started there:
 
 ![mealActions.js boilerplating action types](https://preview.ibb.co/ixLdLA/01-meal-Actions.png)
 Originally I had set it up with the GET/GETTING pattern I was familiar with from Dustin's lectures. However, as you can see toward the bottom, I had a thought about a possible different structure. I remembered a groupmate from my cohort who had condensed their actions ending in "ING" down to FETCHING_DATA or something similar. I wondered if this might be useful to us, and suggested it in a comment to go over with my teammates.
 
 ![mealActions.js boilerplating action creators](https://preview.ibb.co/cdT9Sq/02-meal-Actions2.png)
-I also started setting up a couple of actions (one pictures above) to model our other actions after. I included a commented out example of what it would look like if we changed our action types. This is still under discussion.
+I also started setting up a couple of actions (one pictured above) to model our other actions after. I included a commented out example of what it would look like if we changed our action types. This is still under discussion.
 
 ![actions/index.js exports](https://image.ibb.co/gYDLYV/03-actions-index.png)
 Other actions files did not have as much detail, just the comment headings, but I did include how these files would be exported from index.js so that we wouldn't have to worry about pathnames when pulling action types for different components. Everything can be imported from the index.js file by exporting with the example shown above, and importing into reducer files as shown below.
@@ -53,7 +53,7 @@ Other actions files did not have as much detail, just the comment headings, but 
 
 ![mealsReducer.js initial state](https://preview.ibb.co/kJXsfA/05-meals-Reducer-state.png)
 
-And as with the actions, I had some thoughts about the reduction of our reducers from the examples I was used to. These discussion were briefly tabled when we realized that we needed to build log-in functionality as opposed to simple deployment! But I did include example code with commented out alternatives using the second version of initial state:
+And as with the actions, I had some thoughts about the reduction of our reducers from the examples I was used to. These discussions were briefly tabled when we realized that we needed to build log-in functionality as opposed to simple deployment! But I did include example code with commented out alternatives using the second version of initial state:
 
 ![mealsReducer.js examples](https://preview.ibb.co/bSuinq/06-meals-Reducer-code.png)
 
