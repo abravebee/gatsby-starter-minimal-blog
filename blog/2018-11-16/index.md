@@ -1,10 +1,18 @@
+---
+date: "2018-11-09"
+title: "Week Two"
+category: "General"
+---
+
 Part 1 - Individual Accomplishments this Week
 Paste a link to your whiteboard interview. You may keep this set to private and add your PM, but you are encouraged to set it to unlisted. (Weeks 2-4)
 
 
 Paste your team’s github contribution graph here and indicate your Github Handle:
 
-@abravebee. This is the least I've spent writing actual code in four months, but I learned a lot about auth0, and I'm growing a lot more comfortable with netlify.
+![week 2 contributions](../../imgs/wk02-contributions)
+
+@abravebee. This is the least I've spent writing actual code in four months, but I learned a lot about auth0, and I'm growing a lot more comfortable with netlify. Next week, however, I look forward to doing more actual hands-on building.
 
 Provide a paragraph (5-8 sentences) summarizing the work you did this week, the challenges you faced, the tools you used, and your accomplishments
 
