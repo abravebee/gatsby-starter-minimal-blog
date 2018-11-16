@@ -6,7 +6,7 @@ category: "General"
 
 Part 1 - Individual Accomplishments this Week
 Paste a link to your whiteboard interview. You may keep this set to private and add your PM, but you are encouraged to set it to unlisted. (Weeks 2-4)
-
+https://youtu.be/5F9WKL7-tcc
 
 Paste your team’s github contribution graph here and indicate your Github Handle:
 
