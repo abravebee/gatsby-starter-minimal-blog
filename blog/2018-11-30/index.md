@@ -9,6 +9,8 @@ category: "General"
 
 _whiteboard video is processing_
 
+I tried to emulate more of an actual whiteboard situation here. I did study Linked Lists and thought about palindromes beforehand... I figure in a real job interview situation I would be studying. I actually plan to study all of the whiteboard problems in the whiteboard repo (I saw there were a lot of videos on youtube for Linked List Palindromes but I tried to only watch stuff that was pure theory or just talked about what Linked Lists are because I was really lost when I first read the instructions). I'm surprised my solution was so close to the model solution and it makes me wonder about the other ways of doing it. I kind of hoped it wouldn't be the same so I could learn a little more.
+
 * Paste your team's github contribution graph here and indicate your Github Handle:
 
 [](https://i.ibb.co/zP4mZNR/contributions.png)
