@@ -41,11 +41,23 @@ Trello
 Ticket 3
 Github: https://github.com/Lambda-School-Labs/Labs8-MealHelper/pull/90/files
 Trello
+
 Detailed Analysis
 Pick one of your tickets and provide a detailed analysis of the work you did.  This should be approximately ¼ page of text, and at least three screenshots.
+
+I think I had the most fun with the adding alarms page. I had learned through our courses how to add resources one at a time, but the client requesting this project had a different thought about alarms: setting them every X amount of hours, for folks who suffer with hypoglycemia. So I thought the best way to add alarms would be in a batch, where the user chooses the first and last times of day that they'll be eating (such as their waking times, or breakfast and dinner times), and then choose how many hours should pass between each alarm, or meal.
+
+[](./addAlarm.PNG)
+
+This `addAlarm` function was my baby! I'm not always great when working with numbers so this took a lot of figuring out. I spent a lot of time working it out on paper and in repl.it to make sure my math in the for loop made sense. I ended up needing to use military time for these calculations, so in the options I set for the drop downs, I made the values military time. Originally I didn't have the usual leading zeroes on the AM times, as javascript won't allow for numbers with leading zeroes, but I found out that iOS needed them in there. Since it was fine for them to work with strings, I added the leading zeroes back in and just changed it back to a number in the function.
+
+[](./options.PNG)
+(I hate how long that ended up being, but didn't want to spend time optimizing my code when I needed to just make sure it was working first)
+
+Of course, changing it back to a number drops that leading zero, so I had to throw in a conditional to add that 0 back on. After that, I decided to map through the array of alarm times and send each one to the database. I had considered doing a bulk insert on the back-end so we wouldn't have to make so many calls, but since I want the ability to add single alarms as well (especially for iOS), it seemed better to handle that on the front-end.
+
 
 Part 2 - Milestone Reflections
 Put your response to the weekly question and a link to your team journal assignment here.
 
 
-Part 2 - Milestone Reflections
