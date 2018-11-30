@@ -1,5 +1,5 @@
 ---
-date: "2018-11-09"
+date: "2018-11-30"
 title: "Week Three"
 category: "General"
 ---
@@ -11,7 +11,7 @@ _whiteboard video is processing_
 
 * Paste your team's github contribution graph here and indicate your Github Handle:
 
-[](./contributions.PNG)
+[](https://i.ibb.co/zP4mZNR/contributions.png)
 @abravebee
 
 * Provide a paragraph (5-8 sentences) summarizing the work you did this week, the challenges you faced, the tools you used, and your accomplishments
@@ -24,34 +24,33 @@ I worked almost entirely on the Alarms page this week and learned just how rusty
 **Front End**
 Ticket 1
 * Github: https://github.com/Lambda-School-Labs/Labs8-MealHelper/pull/73
-* Trello:
 Ticket 2
 * Github: https://github.com/Lambda-School-Labs/Labs8-MealHelper/pull/85
-* Trello:
 Ticket 3
 * Github: https://github.com/Lambda-School-Labs/Labs8-MealHelper/pull/86
-* Trello
+
 **Back End**
 Ticket 1
-Github: https://github.com/Lambda-School-Labs/Labs8-MealHelper/pull/77
-Trello: 
+*Github: https://github.com/Lambda-School-Labs/Labs8-MealHelper/pull/77
+
 Ticket 2
-Github: https://github.com/Lambda-School-Labs/Labs8-MealHelper/pull/88
-Trello
+*Github: https://github.com/Lambda-School-Labs/Labs8-MealHelper/pull/88
+
 Ticket 3
-Github: https://github.com/Lambda-School-Labs/Labs8-MealHelper/pull/90/files
-Trello
+*Github: https://github.com/Lambda-School-Labs/Labs8-MealHelper/pull/90/files
+
 
 Detailed Analysis
 Pick one of your tickets and provide a detailed analysis of the work you did.  This should be approximately ¼ page of text, and at least three screenshots.
 
 I think I had the most fun with the adding alarms page. I had learned through our courses how to add resources one at a time, but the client requesting this project had a different thought about alarms: setting them every X amount of hours, for folks who suffer with hypoglycemia. So I thought the best way to add alarms would be in a batch, where the user chooses the first and last times of day that they'll be eating (such as their waking times, or breakfast and dinner times), and then choose how many hours should pass between each alarm, or meal.
 
-[](./addAlarm.PNG)
+[](https://i.ibb.co/FVyk8gT/addAlarm.png)
 
 This `addAlarm` function was my baby! I'm not always great when working with numbers so this took a lot of figuring out. I spent a lot of time working it out on paper and in repl.it to make sure my math in the for loop made sense. I ended up needing to use military time for these calculations, so in the options I set for the drop downs, I made the values military time. Originally I didn't have the usual leading zeroes on the AM times, as javascript won't allow for numbers with leading zeroes, but I found out that iOS needed them in there. Since it was fine for them to work with strings, I added the leading zeroes back in and just changed it back to a number in the function.
 
-[](./options.PNG)
+[](https://i.ibb.co/NThKPHR/options.png)
+
 (I hate how long that ended up being, but didn't want to spend time optimizing my code when I needed to just make sure it was working first)
 
 Of course, changing it back to a number drops that leading zero, so I had to throw in a conditional to add that 0 back on. After that, I decided to map through the array of alarm times and send each one to the database. I had considered doing a bulk insert on the back-end so we wouldn't have to make so many calls, but since I want the ability to add single alarms as well (especially for iOS), it seemed better to handle that on the front-end.
