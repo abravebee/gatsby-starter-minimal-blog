@@ -23,16 +23,27 @@ https://github.com/Lambda-School-Labs/Labs8-MealHelper/pull/137
 https://github.com/Lambda-School-Labs/Labs8-MealHelper/pull/151
 
 * Back End
-The back end is pretty much done. I think the only work done on it this week was putting routes back in that were accidentally deleted in merges, but we're not deploying the master branch on heroku so PRs aren't required for those little fixes.
+The back end is pretty much done. I think the only work done on it this week was putting routes back in that were accidentally deleted in merges, but we're not deploying the master branch on heroku (it has its own branch) so PRs aren't required for those little fixes.
 
 ## Detailed Analysis
 Pick one of your tickets and provide a detailed analysis of the work you did.  This should be approximately ¼ page of text, and at least three screenshots.
 
 I spent most of my time in alarms again this week, but I had a lot of fun! I had originally used `react-select` for my drop-down menus on the alarm adds, but since I was having so much trouble styling them and the boys had used `reactstrap` on the other pages, it seemed better to change over to that, so I did! 
 
-
+[]()
 
 And this meant refactoring the way I was grabbing values and sending them to state.
+
+[]()
+
+The one drawback to the styling is that `reactstrap` apparently uses a lot of !important tags in their library, so you have to use !important tags to override them in your own code. I hate having to use such heavy specificity but at least it worked, whereas even copy-pasting code straight from `react-select`'s documentation wasn't having the expected effect.
+
+I also had some trouble with the custom modal I had built. Never did finish that out since it worked just fine on my Notes project, but once again, I went with the consistency of using a `reactstrap` modal as done with our logout function.
+
+[](blog\2018-12-07\01-editmodal.PNG)
+
+In general, I'm not really a huge fan of libraries like this, and only used them due to the time crunch. I'd like to get much more practice building things like modals and dropdowns from scratch so I can have more control over them.
+
 
 # Part 2 - Milestone Reflections
 Put your response to the weekly question and a link to your team journal assignment here.
