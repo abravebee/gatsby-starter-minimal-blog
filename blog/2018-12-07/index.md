@@ -9,7 +9,7 @@ category: "General"
 **Spiral Matrix Copy: https://youtu.be/cKRDWqByy4g .**
 
 * Paste your team’s github contribution graph here and indicate your Github Handle:
-[abravebee contributions](https://i.imgur.com/TVy8Er1.png)
+![abravebee contributions](https://i.imgur.com/TVy8Er1.png)
 
 **You know who it is! a brave bee! labs 8! 2018! let's do this...**
 
@@ -40,19 +40,19 @@ https://github.com/Lambda-School-Labs/Labs8-MealHelper/pull/151
 
 **I spent most of my time in alarms again this week, but I had a lot of fun! I had originally used `react-select` for my drop-down menus on the alarm adds, but since I was having so much trouble styling them and the boys had used `reactstrap` on the other pages, it seemed better to change over to that, so I did!**
 
-[dropdowns in reactstrap](https://i.imgur.com/NYu7i3g.png)
+![dropdowns in reactstrap](https://i.imgur.com/NYu7i3g.png)
 
 **And this meant refactoring the way I was grabbing values and sending them to state.**
 
-[new functions for new dropdowns](https://i.imgur.com/QXatlJg.png)
+![new functions for new dropdowns](https://i.imgur.com/QXatlJg.png)
 
 **The one drawback to the styling is that `reactstrap` apparently uses a lot of !important tags in their library, so you have to use !important tags to override them in your own code. I hate having to use such heavy specificity but at least it worked, whereas even copy-pasting code straight from `react-select`'s documentation wasn't having the expected effect.**
 
-[ugly !importants](https://i.imgur.com/WaW3vrn.png)
+![ugly !importants](https://i.imgur.com/WaW3vrn.png)
 
 **I also had some trouble with the custom modal I had built. Never did finish that out since it worked just fine on my Notes project, but once again, I went with the consistency of using a `reactstrap` modal as done with our logout function.**
 
-[a new modal](https://i.imgur.com/tyckxqS.png)
+![a new modal](https://i.imgur.com/tyckxqS.png)
 
 **In general, I'm not really a huge fan of libraries like this, and only used them due to the time crunch. I'd like to get much more practice building things like modals and dropdowns from scratch so I can have more control over them.**
 
