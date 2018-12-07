@@ -24,22 +24,22 @@ I worked almost entirely on the Alarms page this week and learned just how rusty
 * List the tasks you pulled this week, and provide a link to the successfully merged PR completing that task and the trello card for that task.  You must have at least one front end and one back end. The expected total is 6 with a minimum of 4.
 
 **Front End**
-Ticket 1
-* Github: https://github.com/Lambda-School-Labs/Labs8-MealHelper/pull/73
-Ticket 2
-* Github: https://github.com/Lambda-School-Labs/Labs8-MealHelper/pull/85
-Ticket 3
-* Github: https://github.com/Lambda-School-Labs/Labs8-MealHelper/pull/86
+* Ticket 1
+  - Github: https://github.com/Lambda-School-Labs/Labs8-MealHelper/pull/73
+* Ticket 2
+  - Github: https://github.com/Lambda-School-Labs/Labs8-MealHelper/pull/85
+* Ticket 3
+  - Github: https://github.com/Lambda-School-Labs/Labs8-MealHelper/pull/86
 
 **Back End**
-Ticket 1
-*Github: https://github.com/Lambda-School-Labs/Labs8-MealHelper/pull/77
+* Ticket 1
+  - Github: https://github.com/Lambda-School-Labs/Labs8-MealHelper/pull/77
 
-Ticket 2
-*Github: https://github.com/Lambda-School-Labs/Labs8-MealHelper/pull/88
+* Ticket 2
+  - Github: https://github.com/Lambda-School-Labs/Labs8-MealHelper/pull/88
 
-Ticket 3
-*Github: https://github.com/Lambda-School-Labs/Labs8-MealHelper/pull/90/files
+* Ticket 3
+  - Github: https://github.com/Lambda-School-Labs/Labs8-MealHelper/pull/90/files
 
 
 Detailed Analysis
